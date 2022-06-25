@@ -8,6 +8,8 @@ public class App {
         System.out.println(num);
         System.out.println(nombre.getClass().getSimpleName());
         System.out.println(((Object)num2).getClass().getSimpleName()); //casting
+        System.out.println("Barranquilla es conocida como \"La Arenosa\"");
+        //  \", \' \\
 
     }
 }
