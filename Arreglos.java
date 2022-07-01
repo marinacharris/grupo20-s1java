@@ -1,3 +1,5 @@
+import javax.swing.plaf.synth.SynthPasswordFieldUI;
+
 public class Arreglos {
     public static void main(String[] args){
         String[] ciudades = {"Cali","Medellín","Montería","Bogotá"};
@@ -15,6 +17,24 @@ public class Arreglos {
 
         for (int num: numeros){
             System.out.println(num);
+        }
+
+        int[][] matriz = {{45,25,89},{26,32,77}};
+
+        // 45 25 89
+        // 26 32 77
+        // recorrido de un array bidimensional con un for
+        for (int i = 0; i < matriz.length; i++){
+            for (int j = 0; j < matriz[i].length; j++){
+                System.out.println(matriz[i][j]);
+            }
+        }
+        System.out.println("-------------------------");
+        // recorrido de un array bidimensional con un for each
+        for (int[] x:matriz){
+            for(int y:x){
+                System.out.println(y);
+            }
         }
 
 
