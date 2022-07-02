@@ -10,6 +10,7 @@ public class App {
         System.out.println(((Object)num2).getClass().getSimpleName()); //casting
         System.out.println("Barranquilla es conocida como \"La Arenosa\"");
         //  \", \' \\
-
+        Ejercicio3 obj1 = new Ejercicio3(); 
+        System.out.println(obj1.suma(5, 9));
     }
 }

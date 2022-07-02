@@ -1,4 +1,4 @@
-import javax.swing.plaf.synth.SynthPasswordFieldUI;
+
 
 public class Arreglos {
     public static void main(String[] args){
