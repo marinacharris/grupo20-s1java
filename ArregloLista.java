@@ -77,7 +77,7 @@ public class ArregloLista {
         HashSet<String> ciudades = new HashSet<String>();
         ciudades.add("Cali");
         ciudades.add("Barranquilla");
-        ciudades.add("Bucaramangan");
+        ciudades.add("Bucaramanga");
         ciudades.add("Cali");
         System.out.println(ciudades);
 
